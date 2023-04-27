@@ -39,7 +39,7 @@ const LayoutPublic: FC<{
                     description,
                     url: `${baseURL}/${note?.id}`,
                     images: [
-                        { url: note?.pic ?? `${baseURL}/logo_1280x640.png` },
+                        { url: note?.pic ?? `${baseURL}/logo.png` },
                     ],
                     type: 'article',
                     article: {

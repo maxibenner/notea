@@ -7,16 +7,16 @@ class MyDocument extends Document {
         return (
             <Html className="nightwind">
                 <Head>
-                    <meta name="application-name" content="Notea" />
+                    <meta name="application-name" content="Max's Notes" />
                     <meta name="apple-mobile-web-app-capable" content="yes" />
                     <meta
                         name="apple-mobile-web-app-status-bar-style"
                         content="default"
                     />
-                    <meta name="apple-mobile-web-app-title" content="Notea" />
+                    <meta name="apple-mobile-web-app-title" content="Max's Notes" />
                     <meta
                         name="description"
-                        content="Self hosted note taking app stored on S3."
+                        content="Self hosted notes powered by notea and S3"
                     />
                     <meta name="format-detection" content="telephone=no" />
                     <meta name="mobile-web-app-capable" content="yes" />
@@ -26,14 +26,14 @@ class MyDocument extends Document {
 
                     <link
                         rel="apple-touch-icon"
-                        sizes="192x192"
-                        href="/static/icons/icon-192x192.png"
+                        sizes="180x180"
+                        href="/static/icons/icon-180x180.png"
                     />
                     <link
                         rel="icon"
                         type="image/png"
-                        sizes="128x128"
-                        href="/static/icons/icon-128x128.png"
+                        sizes="120x120"
+                        href="/static/icons/icon-120x120.png"
                     />
                     <link rel="manifest" href="/static/manifest.json" />
                 </Head>
