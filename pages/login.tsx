@@ -41,14 +41,14 @@ const LoginPage = () => {
     return (
         <div className="h-screen flex flex-col">
             <main className="flex flex-col my-auto ">
-                <img className="w-40 h-40 m-auto" src="/logo.svg" alt="Logo" />
+                {/* <img className="w-40 h-40 m-auto" src="/logo.svg" alt="Logo" /> */}
                 <form
                     className="w-80 mx-auto"
                     action="post"
                     noValidate
                     onSubmit={onSubmit}
                 >
-                    <div className="flex flex-col space-y-2 my-8">
+                    <div className="flex flex-col space-y-2 my-4">
                         <TextField
                             variant="outlined"
                             required
