@@ -32,7 +32,7 @@ const LayoutPublic: FC<{
         <>
             <NextSeo
                 title={note?.title}
-                titleTemplate="%s - Powered by Notea"
+                titleTemplate="%s"
                 description={description}
                 openGraph={{
                     title: note?.title,
