@@ -36,7 +36,7 @@ export const PostContainer: FC<{
                 className={className}
                 readOnly
             />
-            {isPreview ? null : (
+            {/* {isPreview ? null : (
                 <>
                     {injection ? (
                         <InnerHTML
@@ -57,7 +57,7 @@ export const PostContainer: FC<{
                         </a>
                     </footer>
                 </>
-            )}
+            )} */}
         </>
     );
 };
