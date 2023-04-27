@@ -1,7 +1,7 @@
 import { FC/*, useMemo*/ } from 'react';
 // TODO: Maybe can custom
 import 'highlight.js/styles/zenburn.css';
-import UIState from 'libs/web/state/ui';
+// import UIState from 'libs/web/state/ui';
 // import InnerHTML from 'dangerously-set-html-content';
 import { NoteModel } from 'libs/shared/note';
 // import pupa from 'pupa';
